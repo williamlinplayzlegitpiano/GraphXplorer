@@ -37,20 +37,20 @@ Clone this repository to your local machine:
 ```bash
 git clone https://github.com/yourusername/GraphXplorer.git
 cd GraphXplorer
+```
 
 Build
 To build the project, use the provided Makefile:
 
-bash
-Copy code
+```
 make
+```
 This will create an executable named GraphTest.
 
 Run
 You can execute the program with the following usage:
-
+```
 bash
-Copy code
 ./GraphTest <edgelist_csv> <test>
 <edgelist_csv>: Path to the CSV file containing the edge list (u,v,w format).
 <test>: One of the following test options:
