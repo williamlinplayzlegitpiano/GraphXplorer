@@ -47,23 +47,23 @@ make
 ```
 This will create an executable named GraphTest.
 
-Run
+### Run
 You can execute the program with the following usage:
 ```
 ./GraphTest <edgelist_csv> <test>
 ```
 <edgelist_csv>: Path to the CSV file containing the edge list (u,v,w format).
 <test>: One of the following test options:
-graph_properties: Outputs basic graph properties.
-shortest_unweighted: Finds unweighted shortest paths between nodes.
-shortest_weighted: Finds weighted shortest paths using Dijkstra's algorithm.
-connected_components: Identifies connected components under a weight threshold.
-smallest_threshold: Determines the smallest edge weight to connect two nodes.
+- graph_properties: Outputs basic graph properties.
+- shortest_unweighted: Finds unweighted shortest paths between nodes.
+- shortest_weighted: Finds weighted shortest paths using Dijkstra's algorithm.
+- connected_components: Identifies connected components under a weight threshold.
+- smallest_threshold: Determines the smallest edge weight to connect two nodes.
 Example:
 ```
 ./GraphTest sample.csv graph_properties
 ```
-📁 Example Edge List File
+## 📁 Example Edge List File
 Create a CSV file sample.csv with the following content:
 
 ```
@@ -74,31 +74,31 @@ C,D,0.8
 E,F,1.2
 ```
 
-### 🛠 Development
-Debugging
+## 🛠 Development
+### Debugging
 To build the project with debugging information, use:
 
 ```
 make gprof
 ```
 
-Cleanup
+### Cleanup
 To remove the compiled files, run:
 
 ```
 make clean
 ```
 
-🧪 Testing
+## 🧪 Testing
 Test the program with various edge list inputs and tests to validate its correctness. Customize the provided test cases or add your own in GraphTest.cpp.
 
-🤝 Contributing
+## 🤝 Contributing
 Contributions are welcome! Feel free to open issues or submit pull requests with improvements, bug fixes, or new features.
 
-📜 License
+## 📜 License
 This project is licensed under the MIT License. See the LICENSE file for details.
 
-💬 Contact
+## 💬 Contact
 If you have any questions or suggestions, feel free to reach out at your-email@example.com or open an issue on GitHub.
 
 Happy graph exploring with GraphXplorer! 🌟
