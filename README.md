@@ -96,10 +96,7 @@ Test the program with various edge list inputs and tests to validate its correct
 ## 🤝 Contributing
 Contributions are welcome! Feel free to open issues or submit pull requests with improvements, bug fixes, or new features.
 
-## 📜 License
-This project is licensed under the MIT License. See the LICENSE file for details.
-
 ## 💬 Contact
-If you have any questions or suggestions, feel free to reach out at your-email@example.com or open an issue on GitHub.
+If you have any questions or suggestions, feel free to reach out at xil211@ucsd.edu or open an issue on GitHub.
 
 Happy graph exploring with GraphXplorer! 🌟
