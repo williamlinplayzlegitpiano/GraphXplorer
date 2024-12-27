@@ -1,4 +1,4 @@
-### 🚀 GraphXplorer: A C++ Graph Library
+# 🚀 GraphXplorer: A C++ Graph Library
 
 Welcome to GraphXplorer, a powerful and flexible C++ library for working with undirected graphs featuring non-negative edge weights. This project allows you to load graphs from CSV files and provides various functionalities such as exploring graph properties, finding shortest paths, connected components, and more.
 
