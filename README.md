@@ -34,7 +34,7 @@ Welcome to **GraphXplorer**, a powerful and flexible C++ library for working wit
 
 ### Installation
 Clone this repository to your local machine:
-```bash
+```
 git clone https://github.com/yourusername/GraphXplorer.git
 cd GraphXplorer
 ```
@@ -50,8 +50,8 @@ This will create an executable named GraphTest.
 Run
 You can execute the program with the following usage:
 ```
-bash
 ./GraphTest <edgelist_csv> <test>
+```
 <edgelist_csv>: Path to the CSV file containing the edge list (u,v,w format).
 <test>: One of the following test options:
 graph_properties: Outputs basic graph properties.
@@ -60,33 +60,35 @@ shortest_weighted: Finds weighted shortest paths using Dijkstra's algorithm.
 connected_components: Identifies connected components under a weight threshold.
 smallest_threshold: Determines the smallest edge weight to connect two nodes.
 Example:
-
-bash
-Copy code
+```
 ./GraphTest sample.csv graph_properties
+```
 📁 Example Edge List File
 Create a CSV file sample.csv with the following content:
 
-csv
-Copy code
+```
 A,B,0.5
 A,C,1.0
 B,C,0.2
 C,D,0.8
 E,F,1.2
-🛠 Development
+```
+
+### 🛠 Development
 Debugging
 To build the project with debugging information, use:
 
-bash
-Copy code
+```
 make gprof
+```
+
 Cleanup
 To remove the compiled files, run:
 
-bash
-Copy code
+```
 make clean
+```
+
 🧪 Testing
 Test the program with various edge list inputs and tests to validate its correctness. Customize the provided test cases or add your own in GraphTest.cpp.
 
