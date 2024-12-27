@@ -54,7 +54,7 @@ You can execute the program with the following usage:
 ```
 <edgelist_csv>: Path to the CSV file containing the edge list (u,v,w format).
 
-<test>: One of the following test options:
+<"test">: One of the following test options:
 - graph_properties: Outputs basic graph properties.
 - shortest_unweighted: Finds unweighted shortest paths between nodes.
 - shortest_weighted: Finds weighted shortest paths using Dijkstra's algorithm.
